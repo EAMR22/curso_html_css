@@ -1,0 +1,30 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /*Eliminamos los puntitos de la lista*/
+    padding-left: 0px; /* Padding es un espacio interno del contenedor */
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block; /* Ordena los elementos en forma horizontal */
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px; /* Con este elemento hacemos un borde circular */
+    text-decoration: none; /* Eliminamos la linea que subraya el texto */
+}
+
+.main-nav__item a:hover{
+    color: blue;
+}
+
+.main-nav__item a:active{
+    color: red;
+}
+
+.main-nav__item a::after{
+    content: " | ";
+}
+

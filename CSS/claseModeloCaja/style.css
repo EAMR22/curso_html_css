@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box; /* Hace que se calcule automaticamente el tamaño del elemento con el padding y el border */
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%; /*Con width nos indica que tan largo va a ser el elemento */
+    height: 500px; /*Con height nos dice que tan alto va a estar el elemento */
+    border: 10px solid gray;
+    padding: 20px 35px; /* El primero nos dice que va de arriba a abajo y el segundo que va de derecha a izquierda */
+}
