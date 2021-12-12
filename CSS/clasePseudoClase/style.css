@@ -16,15 +16,15 @@
     text-decoration: none; /* Eliminamos la linea que subraya el texto */
 }
 
-.main-nav__item a:hover{
+.main-nav__item a:hover{ /*:hover Al pasar el mouse por encima del elemento cambia de estado.*/
     color: blue;
 }
 
-.main-nav__item a:active{
+.main-nav__item a:active{ /*:active Al darle click al elemento cambia su estado.*/
     color: red;
 }
 
-.main-nav__item a::after{
+.main-nav__item a::after{ /*::after Nos indica que después del elemento agrega el contenido.*/
     content: " | ";
 }
 
