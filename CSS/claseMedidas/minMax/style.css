@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto; /*El 0 indica que de arriba y abajo no agregue margin y el auto lo que dice es que de
+                    izquierda a derecha centre el margin*/
+    background-color: red;
+}
