@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 0.3rem solid black;
+    display: flex; /*Se comporta de manera flexible y los coloca de forma horizontal*/
+    flex-wrap: wrap; /*Cuando se achica el contenido pasa a la siguiente linea*/
+    /*align-items: stretch; Se estira hasta el tamaño de su contenedor*/
+    /*align-items: baseline;  Se adapta hasta el tamaño de su contenido*/
+}
+
+.box {
+    height: 10rem;
+    flex-basis: 10rem; /*A medida que se achica la pantalla los contenedores empiezan a bajar y
+    a medica que aumenta la pantalla los contenedores empiezan a subir*/
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: blue;
+    /*flex-grow: 1; Toma el espacio que sobra del width*/
+}
+
+.box2 {
+    background-color: blueviolet;
+}
+
+.box3 {
+    background-color: burlywood;
+}
+
+.box4 {
+    background-color: cadetblue;
+}
+
+.box5 {
+    background-color: coral;
+}
+
+.box6 {
+    background-color: salmon;
+}
+
+
+
+
+
+
+
+
+
+
+

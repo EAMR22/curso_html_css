@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: hotpink;
+}
+
+.nav__ul {
+    text-align: right;
+    list-style: none;
+}
+
+.nav__ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+main {
+    background-color: cadetblue;
+}
+
+.section__one {
+    width: 20vw;
+    height: 500px;
+    background-color: rgb(11, 164, 184);
+}
+
+.section__one div {
+    width: 15vw;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: darkblue;
+}
+
+
+
+
+
