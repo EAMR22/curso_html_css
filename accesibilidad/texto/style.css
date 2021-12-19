@@ -1,0 +1,19 @@
+/*h1 {       El texto con pixeles no crece cuando cambia la fuente
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}*/
+
+html {
+    font-size: 62.5%; /*Aqui el texto si crece cuando cambia la fuente*/
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
